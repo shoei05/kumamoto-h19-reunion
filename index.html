@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="熊本高校 平成19年（2007年）卒業の同窓会。2027年1月2日（土）11:00〜13:30、KKRホテル熊本。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="卒業20年 またみんなで。｜熊本高校 平成19年卒 同窓会">
+<meta property="og:description" content="2027年1月2日（土）11:00〜13:30 KKRホテル熊本">
+<meta property="og:url" content="https://shoei05.github.io/kumamoto-h19-reunion/">
+<meta property="og:image" content="https://shoei05.github.io/kumamoto-h19-reunion/ogp.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<title>熊本高校 平成19年卒 同窓会</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;family=Shippori+Mincho:wght@600;800&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  --bg-canvas: #CCC591;
+  --bg-sheet: #D5D5D3;
+  --bg-sub: #CCC591;
+  --ink: #24281A;
+  --ink-sub: #24281A;
+  --accent: #CEAB07;
+  --accent-hover: #F3DF6C;
+  --border: #24281A;
+  --border-light: #CCC591;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--ink);
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding: 24px 16px 48px;
+}
+
+.sheet {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--bg-sheet);
+  border: 2px solid var(--border);
+  padding: 28px 20px 32px;
+}
+
+.sheet-header {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+
+.target-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-sub);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.event-title {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.lead-block {
+  margin-bottom: 20px;
+}
+
+.main-catch {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
+  font-size: clamp(26px, 7.5vw, 36px);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+.key-facts {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 0;
+  margin-bottom: 16px;
+}
+
+.key-row {
+  display: flex;
+  align-items: baseline;
+  padding: 4px 0;
+  font-size: 15px;
+}
+
+.key-term {
+  width: 52px;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-sub);
+  letter-spacing: 0.05em;
+}
+
+.key-desc {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+
+.action-block {
+  margin-bottom: 24px;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  background-color: var(--accent);
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 14px 16px;
+  border: 2px solid var(--border);
+  border-radius: 0;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--accent-hover);
+}
+
+.details-table {
+  border-top: 1px solid var(--border-light);
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.detail-term {
+  width: 72px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--ink-sub);
+}
+
+.detail-desc {
+  flex: 1;
+  color: var(--ink);
+}
+
+.note-box {
+  background-color: var(--bg-sub);
+  border-left: 4px solid var(--border);
+  padding: 14px 14px;
+  margin-bottom: 28px;
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+.note-box p + p {
+  margin-top: 10px;
+}
+
+.share-section {
+  border-top: 2px solid var(--border);
+  padding-top: 18px;
+}
+
+.share-heading {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+
+.share-copy {
+  font-size: 13px;
+  color: var(--ink-sub);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.share-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-share {
+  flex: 1;
+  background-color: var(--bg-sheet);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 8px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  font-family: inherit;
+}
+
+.btn-share:hover,
+.btn-share:focus {
+  background-color: var(--bg-sub);
+}
+
+.share-status {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink);
+  min-height: 18px;
+}
+
+.hidden-field {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 16px 16px 36px;
+  }
+  .sheet {
+    padding: 20px 16px 24px;
+  }
+  .key-row {
+    font-size: 14px;
+  }
+  .key-desc {
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+.catch-big {
+  display: block;
+  font-size: clamp(56px, 19vw, 104px);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+}
+
+.catch-num {
+  color: var(--accent);
+  -webkit-text-stroke: 1.5px var(--ink);
+}
+
+.catch-sub {
+  display: block;
+  margin-top: 10px;
+  font-size: clamp(22px, 6vw, 30px);
+  letter-spacing: 0.08em;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-bottom: 20px;
+  border: 2px solid var(--border);
+  background: var(--border);
+}
+
+.photo-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+</style>
+
+</head>
+<body>
+<div class="sheet">
+  <header class="sheet-header">
+    <p class="target-label">熊本県立熊本高等学校 平成19年（2007年）卒業の同級生</p>
+    <h1 class="event-title">熊本高校 平成19年卒 同窓会</h1>
+  </header>
+
+  <div class="lead-block">
+    <p class="main-catch"><span class="catch-big">卒業<span class="catch-num">20</span>年</span><span class="catch-sub">またみんなで。</span></p>
+    
+    <div class="key-facts">
+      <div class="key-row">
+        <span class="key-term">日時</span>
+        <span class="key-desc">2027年1月2日（土）11:00〜13:30</span>
+      </div>
+      <div class="key-row">
+        <span class="key-term">会場</span>
+        <span class="key-desc">KKRホテル熊本</span>
+      </div>
+    </div>
+
+    <div class="action-block">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnz9JvWhb0LXa0iEOCUaydPTrmgznarHFpMItHiXeZ4uHudg/viewform" target="_blank" rel="noopener noreferrer" class="btn-primary">
+        参加申し込みフォーム
+      </a>
+    </div>
+  </div>
+
+  <div class="photo-grid">
+    <img src="photo/s03.jpg" alt="旧校舎" width="720" height="350" loading="lazy">
+    <img src="photo/s09.jpg" alt="教室" width="720" height="350" loading="lazy">
+    <img src="photo/s17.jpg" alt="正門" width="720" height="350" loading="lazy">
+    <img src="photo/s20.jpg" alt="校舎とグラウンド" width="720" height="350" loading="lazy">
+  </div>
+
+  <div class="details-table">
+    <div class="detail-row">
+      <span class="detail-term">会費</span>
+      <span class="detail-desc">大人 8,000円／子ども 3,000円（子連れOK）</span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-term">服装</span>
+      <span class="detail-desc">カジュアルでOK</span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-term">支払い</span>
+      <span class="detail-desc">振込先は登録後にLINE・メールで案内</span>
+    </div>
+    <div class="detail-row">
+      <span class="detail-term">申込締切</span>
+      <span class="detail-desc">調整中</span>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <p>欠席や未定の人も、連絡先の登録だけお願いします。3分ほどで終わります。</p>
+    <p>学年のLINEグループに入っていない人は、フォームで「参加したい」を選んでください。幹事から招待リンクをメールで送ります。</p>
+  </div>
+
+  <section class="share-section">
+    <h2 class="share-heading">同級生に知らせてください</h2>
+    <p class="share-copy">連絡が取れていない同級生がいたら、このページを転送してもらえると助かります。</p>
+    <div class="share-actions">
+      <a id="lineShareLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-share">LINEで送る</a>
+      <button id="copyUrlButton" type="button" class="btn-share">URLをコピー</button>
+    </div>
+    <p id="shareStatusMessage" class="share-status" aria-live="polite"></p>
+    <input type="text" id="copyFallbackInput" class="hidden-field" readonly tabindex="-1" aria-hidden="true">
+  </section>
+</div>
+
+<script>
+(function() {
+  var rawUrl = window.location.href.split('#')[0];
+  var lineLink = document.getElementById('lineShareLink');
+  if (lineLink) {
+    lineLink.href = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(rawUrl);
+  }
+
+  var copyBtn = document.getElementById('copyUrlButton');
+  var statusMsg = document.getElementById('shareStatusMessage');
+  var fallbackInput = document.getElementById('copyFallbackInput');
+
+  function showMessage(text) {
+    if (statusMsg) {
+      statusMsg.textContent = text;
+      setTimeout(function() {
+        statusMsg.textContent = '';
+      }, 3000);
+    }
+  }
+
+  function executeFallback() {
+    if (!fallbackInput) return;
+    fallbackInput.value = rawUrl;
+    fallbackInput.select();
+    try {
+      var success = document.execCommand('copy');
+      if (success) {
+        showMessage('URLをコピーしました');
+      } else {
+        showMessage('コピーできませんでした');
+      }
+    } catch (e) {
+      showMessage('コピーできませんでした');
+    }
+  }
+
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function() {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(rawUrl).then(function() {
+          showMessage('URLをコピーしました');
+        }).catch(function() {
+          executeFallback();
+        });
+      } else {
+        executeFallback();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
